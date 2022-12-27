@@ -1,0 +1,19 @@
+{
+  "name": "mauro-fitz-maurice",
+  "version": "1.0.0",
+  "description": ">  Proyecto de Mauro Fitz Maurice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maurofitz/Coder-MauroFitzMaurice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maurofitz/Coder-MauroFitzMaurice/issues"
+  },
+  "homepage": "https://github.com/Maurofitz/Coder-MauroFitzMaurice#readme"
+}

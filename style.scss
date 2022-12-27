@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0; 
+    :root{
+        --primary:#000000;
+        --secondary: green;
+        --light-dark: #C6C6C6;
+        --white: #fff;
+    } 
+}
+@mixin font {
+    font-family: 'Oswald', sans-serif
+}
+body{
+    overflow-x: hidden;
+    width: 100%;
+    color: var(--primary);
+}
+.navbar .navbar-nav .nav-link {
+    margin-right: 30px;
+    padding: 40px 0;
+    color: var(--primary);
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: none;
+}
+.carousel-item{
+    height: 700px;
+    font-size: 80px;
+    -webkit-text-stroke: 2px var(--secondary);
+    @include font();
+}
+.titulo_grande{
+    font-size: 20px;  
+}
+
+.d-inline-block,
+.titulos_index,
+.titulo_grande,
+.titulo_nosotros {
+    @include font();
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.acordeon {
+    padding: 0;
+    margin-bottom: 50px;
+    .content {
+        padding: 60px 100px 0 100px;
+        
+    }
+    .content h2 {
+        font-weight: 400;
+        font-size: 34px;
+        @include font();
+    }
+    h3 {
+        @include font();
+        font-size: 50px;
+    }
+    .content p {
+        font-size: 15px;
+    }
+    .img {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-height: 400px;
+      }
+    .accordion-item {
+        margin-left: 100px;
+        padding: 0;
+        list-style: none;
+        color: var(--white);
+        background-color: #009961;     
+      }
+    .accordion-header {
+        @include font();
+      }
+    .accordion-button {
+        box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+    } 
+    .accordion-button:hover {
+        color: #009961;
+    }    
+  }
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: var(--light);
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+
+}
